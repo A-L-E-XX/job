@@ -1,0 +1,74 @@
+.zone-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .zone-page h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #006400;
+    margin-bottom: 20px;
+  }
+  
+  .zone-page p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .member-card {
+    width: 250px;
+    border: 2px solid #006400;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #e8f5e9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .member-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .member-card h3 {
+    font-size: 1.5rem;
+    color: #004d00;
+    margin-bottom: 10px;
+  }
+  
+  .member-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .member-card .role {
+    font-style: italic;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .zone-page h1 {
+      font-size: 2rem;
+    }
+  
+    .zone-page p {
+      font-size: 1rem;
+    }
+  
+    .member-card {
+      width: 100%;
+      margin: 0 10px;
+    }
+  }
+  

@@ -1,0 +1,184 @@
+.homepage {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .hero {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #006400;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    margin: 20px 0;
+    font-size: 1.4rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .cta-button:hover {
+    background-color: #45a049;
+  }
+  
+  .zones-section, .about-section, .vision, .testimonials, .get-involved {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .zones {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .zone-card {
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid #006400;
+    border-radius: 10px;
+    background-color: #e8f5e9;
+    text-decoration: none;
+    font-weight: bold;
+    color: #006400;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-width: 120px;
+    text-align: center;
+  }
+  
+  .zone-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .features {
+    background-color: #fafafa;
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .feature-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .feature-card img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    color: #006400;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+  }
+  
+  .vision {
+    background-color: #f9f9f9;
+  }
+  
+  .vision p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .get-involved ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .get-involved li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  .get-involved button {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .get-involved button:hover {
+    background-color: #45a049;
+  }
+  
+  .testimonials {
+    background-color: #fafafa;
+  }
+  
+  .testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .testimonial-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .testimonial-card p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+  
+  .testimonial-card h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #006400;
+  }
+  
+  .about-section {
+    background-color: #f9f9f9;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-section .cta-button {
+    margin-top: 20px;
+  }
+  
